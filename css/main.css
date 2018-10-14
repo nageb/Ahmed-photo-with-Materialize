@@ -1,0 +1,98 @@
+/* Start Header Style */
+header {
+    background: url(../img/man.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+}
+
+@media screen and (max-width: 670px) {
+    min-height: 500px;
+}
+
+
+/* Photo's Section */
+
+/* padding All Sections classes */
+.section {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+/* Overwrite on Tabs */
+.tabs .indicator {
+    background-color: #1a237e
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background: transparent;
+}
+
+/* This for margin middel box */
+.sec-pho {
+    margin-top: 5.5%;
+    margin-bottom: 5.5%;
+}
+
+/* Responsive photos */
+@media screen and (max-width: 580px) {
+    .sec-pho {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    .section-photos {
+        padding-top: 8vw;
+        padding-bottom: 8vw;
+    }
+}
+
+/*Fix Responsive in very Small Sreens*/
+@media screen and (max-width: 520px) {
+    /*Fix Logo prand style*/
+    .master-style-logo {
+        text-align: center !important;
+        font-size: 20px !important;
+    }
+    /*fix side nave width*/
+    .up-style-sidenave-responsive{
+        width: 140px !important;
+    }
+    
+    .up-style-ancor-sidenav {
+        margin-top: 50px !important;
+    }
+
+    /*fix services Traffic*/
+    #mrgn-in-small-screen-to-better-show {
+        margin-bottom: 15%;
+    }
+
+    /*Fix Font Size For Contact*/
+    .fix-size-in-contact-head {
+        font-size: 40px !important;
+    }
+
+    form {
+        margin-top: 50px;
+    }
+
+    /*Footer Fix to Center*/
+    .pull-center-in-small-screen {
+        text-align: center;
+    }
+
+    .pull-center-in-small-screen > li a {
+        margin-top: 5%;
+    }
+
+    /*Fix Submit Button Posiotn*/
+    .fix-poition-submit {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    /*Finish and None all Traffic*/
+    .Kill {
+        display: none;
+    }
+}

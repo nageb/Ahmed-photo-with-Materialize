@@ -1,0 +1,225 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+  <!-- My Special Style -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>Nageb Photo</title>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="" class="master-style-logo brand-logo">Ahmed Photo</a>
+        <a href="" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#photos">Photo's</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">contact</a></li>
+
+          <!-- use fontawesome with tooltipped -->
+          <li><a href="https://www.instagram.com/prog_ahmed_nageb/" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Go To my Instagram">
+            <i class="fab fa-instagram"></i>
+          </a></li>
+          <li><a href="https://facebook.com/AhmedNagebOfficial" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Go To my Facebook">
+            <i class="fab fa-facebook"></i>
+          </a></li>
+          <li><a href="https://twitter.com/ProgAhmedNageb" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Go To my Twitter">
+            <i class="fab fa-twitter"></i>
+          </a></li>
+        </ul>
+        <ul class=" up-style-sidenave-responsive sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#photos" class="tooltipped-2 up-style-ancor-sidenav" data-tooltip="Go To See Photos">Photo's</a></li>
+          <li><a href="#services" class="tooltipped-2 up-style-ancor-sidenav" data-tooltip="See How can i serve you?">Services</a></li>
+          <li><a href="#contact" class="tooltipped-2 up-style-ancor-sidenav" data-tooltip="Send My What You Need!">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- photo / grid -->
+  <section class="container section section-photos scrollspy" id="photos">
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="img/portrait.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">Portraits</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sunt architecto odit. Quaerat, asperiores quasi!</p>
+        </div>
+      </div>
+    </div>
+    <div class="row sec-pho">
+      <div class="col s12 l4 push-l7 offset-l1">
+        <img src="img/city.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 pull-l5 right-align offset-l1">
+        <h2 class="indigo-text text-darken-4">Cityscapes</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sunt architecto odit. Quaerat, asperiores quasi!</p>
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="img/nature.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">Nature</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sunt architecto odit. Quaerat, asperiores quasi!</p>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax One -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/street.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- services / tabs -->
+  <section class="container section scrollspy" id="services">
+    <div class="row">
+      <div id="mrgn-in-small-screen-to-better-show" class="col s12 l4">
+        <!-- Add Contact Fix font size  -->
+        <h2 class="fix-size-in-contact-head indego-text text-darken-4">What i do...</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nihil expedita, id tempora.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nihil expedita, id tempora.</p>
+      </div>
+      <div class="col s12 l6 offset-l2">
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#webdesign" class="indigo-text text-darken-4">Web Design</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#editing" class="indigo-text text-darken-4">Video Editing</a>
+          </li>
+        </ul>
+        
+            <!-- SHOWN ON TAPS CLICK -->
+        <div class="col s12" id="webdesign">
+          <p class="flow-text indigo-text text-darken-4">WEB DESIGN</p>
+          <p>I'm a Web Designer Work With a lot of Tichs and Improve myself with more Tutorial evry day and More hours </p>
+          <p>I have a lot of Information and Knowledge in My Work Ready to Use it anytime anywhere.</p>
+        </div>
+        <div class="col s12" id="editing">
+          <p class="flow-text indigo-text text-darken-4">VIDEO EDITING</p>
+          <p>I'm a proffesional Video Editor and Montage and have a lot of Knowledge to Use All Montage Software.</p>
+          <p>I Work With Adobe Premier Pro & Sony Vegas & Camtasia Studio and Final Cut.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax Two -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/stars.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+
+  <!-- contact form -->
+  <section class="section container scrollspy" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="fix-size-in-contact-head indigo-text text-darken-4">Get in Touch</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum impedit voluptatum nulla, sunt, animi quis.</p>
+        <p>Esse, nostrum, laudantium. Qui ipsum maxime id doloribus dolorem blanditiis, doloremque sit sunt in ex.</p>
+        <p class="Kill">Eos, quibusdam consectetur eum dolorem at, quaerat inventore libero possimus alias quae necessitatibus aliquam voluptate.</p>
+      </div>
+      <div class="col s12 l5 offset-l2">
+        <form action="">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Your Email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea id="message" class="materialize-textarea"></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <div class="input-field">
+            <input type="text" id="date" class="datepicker">
+            <label for="date">Choose a Date You need me for...</label>
+          </div>
+          <!-- Radio Buttons -->
+          <div class="input-field">
+            <p>Services Required...</p>
+            <!-- The Way to create Radio Button -->
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Web Design</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Video Editing</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Graphic Design</span>
+              </label>
+            </p>
+          </div>
+          <div class="fix-poition-submit input-field center">
+            <button class="btn btn-large waves-effect">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>About Me</h5>
+          <p class="pull-center-in-small-screen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, amet nisi ab odio molestiae consequuntur.</p>
+          <p class="pull-center-in-small-screen Kill">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, amet nisi ab odio molestiae consequuntur.</p>
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5>Connect with me..</h5>
+
+          <ul class="pull-center-in-small-screen">
+            <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+            <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+            <li><a href="#" class="grey-text text-lighten-3">Linked In</a></li>
+            <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center grey-text lighten-3">&copy; 2018 Coding By Ahmed Nageb</div>
+    </div>
+  </footer>
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
